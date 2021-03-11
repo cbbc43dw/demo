@@ -3,46 +3,112 @@
 <head>
 <title>Cafein@</title>
 <Link Rel="icon" type="image/png" href="img/logo.png">
+<style type="text/css">
+body {
+	background-image:url("img/cafeteria.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color:#EDBB99;
+	}
+a:hover {cursor : url(cur/coffee.cur),auto;}
+a:visited { color: maroon;}
+	
+.opacidad {
+  opacity: .8;
+  background-color: burlywood;
+  }
+ .menu {
+  margin: 0 auto;
+  
+  }
+  #menu tr td:hover { background: white; color: #FFF; }
+  
+</style>
 </head>
-<body bgcolor="#EDBB99">
-<table width=80% style="margin: 0 auto;">
+<body>
+<!--Logo-->
+	<table width=80% style="margin: 0 auto;" class="opacidad">
 	<tr>
-	<td align="Center">
-		<img src="img/logo.png" height="200px">
-	</td>
-	<td align="left">
-		<img src="img/nombre.png" height="200px"></td>
-		
+		<td align="Center">
+			<img src="img/logo.png" height="200px">
+		</td>
+		<td align="left">
+			<br><br>
+			<img src="img/nombre.png" height="200px" loading="lazy">
+		</td>
 	</tr>
 	<tr>
 		<td colspan=2>
-		<marquee behavior="Alternate"><h3>Servimos el mejor cafe del mundo</h3></marquee>
+			<font face="impact" size=5 color="tomato">
+				<marquee behavior="Alternate">
+					Servimos el mejor caf&eacute; del mundo
+				</marquee>
+			</font>
 		</td>
 	</tr>
+	</table>
+<!--Menu-->
+	<table border=4 class="menu" id="menu">
+	<caption>
+		<font face="impact" size=5 color="wood">
+			Nuestros productos
+		</font>
+	</caption>
+<!--<tfoot>
+		<tr>
+			<th colspan=3>
+			</th>
+		</tr>
+	</tfoot>-->
+	<tr>
+		<td title="Caf&eacute Late"  style="cursor:help">
+			<a href="late.html">
+				<img alt="Caf&eacute Late" src="img\late.jpg" height="150px" width="150px">
+			</a>
+		</td>
+		<td title="Caf&eacute Capuchino"  style="cursor:help">
+			<a href="preparando.html">
+			<img src="img\capuchino.jpg" height="150px" width="150px">
+			</a>
+		</td>
+		<td title="Caf&eacute Moka"  style="cursor:help">
+			<img src="img\moka.jpg" height="150px" width="150px">
+		</td>
+	</tr>
+	<tr>
+		<td title="Caf&eacute espresso" style="cursor:help">
+			<img src="img\espresso.jpg" height="150px" width="150px">
+		</td>
+		<td title="Caf&eacute americano"  style="cursor:help">
+			<img src="img\americano.jpg" height="150px" width="150px">
+		</td>
+		<td title="Cosas de inter&eacute;s"  style="cursor:help">
+			<a href="break.html">
+			<img src="img\cosas.gif" height="150px" width="150px">
+			
+	
+		</td>
+</tr>
 </table>
-<hr size="5">
 
-<table border=5 style="margin: 0 auto;">
-<caption>Nuestros productos</caption>
-<tfoot><tr><th colspan=3>selecione un producto</th></tr></tfoot>
+<hr color="maroon">
+<table border=0 width="80%" style="margin: 0 auto; text-align:center;">
 <tr>
-
-	<td title="Caf&eacute Late"><a href="late.html"><img alt="Caf&eacute Late" src="img\late.jpg" height="150px" width="150px"></a></td>
-	<td title="Caf&eacute Capuchino"><img src="img\capuchino.jpg" height="150px" width="150px"></td>
-	<td title="Caf&eacute Moka"><img src="img\moka.jpg" height="150px" width="150px"></td>
+	<td>
+	<font face="impact" size=5 color="white">
+		P&aacute;gina elaborada por: Mois&eacute;s Soto Aguilera &oacute;
+		<a href="equipo.html">Integrantes del equipo</a>
+	</font>
+	</td>
 </tr>
-<tr>
-	<td title="Caf&eacute espresso"><img src="img\espresso.jpg" height="150px" width="150px"></td>
-	<td title="Caf&eacute americano"><img src="img\americano.jpg" height="150px" width="150px"></td>
-	<td title="Caf&eacute Frap&eacute"><img src="img\frape.jpg" height="150px" width="150px"></td>
-</tr>
-</table>
-<hr>
-<table border=1 style="margin: 0 auto;">
-<tr>
-	<td>Pagina elaborada por: Moises Soto Aguilera o <a href="equipo.html">Integrantes del equipo</a></td>
-</tr>
-
 </table>
 </body>
 </html>
+<!--
+
+
+
+
+ -->

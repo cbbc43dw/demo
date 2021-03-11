@@ -1,0 +1,45 @@
+﻿[Arrow]
+Path=Coffee.cur
+
+[Hand]
+Path=Coffee select.cur
+
+[UpArrow]
+Path=Coffee alternate.ani
+
+[AppStarting]
+Path=Coffee background.ani
+
+[Wait]
+Path=Coffee busy.ani
+
+[SizeNWSE]
+Path=Coffee diagonal 1.ani
+
+[SizeNESW]
+Path=Coffee diagonal 2.ani
+
+[Help]
+Path=Coffee help.cur
+
+[SizeWE]
+Path=Coffee horizontal.ani
+
+[SizeAll]
+Path=Coffee move.ani
+
+[Crosshair]
+Path=Coffee precision.ani
+
+[IBeam]
+Path=Coffee text.cur
+
+[No]
+Path=Coffee unavailable.cur
+
+[SizeNS]
+Path=Coffee vertical.ani
+
+[NWPen]
+Path=Latte Writing.cur
+

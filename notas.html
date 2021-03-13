@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+	<link  href="http://fonts.googleapis.com/css?family=Reenie+Beanie:regular" rel="stylesheet" type="text/css">
+	<!-- LaTeX con KaTeX V0.7 -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MathJax example</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+	<style type="text/css">
+	/* notas */
+	h2,p{
+	font-size:100%;
+	font-weight:normal;
+	}
+	ul,li{
+	list-style:none;
+	}
+	ul{
+	overflow:hidden;
+	padding:3em;
+	}
+	ul li a{
+	text-decoration:none;
+	color:#000;
+	background:#ffc;
+	display:block;
+	/* tamaño aqui */
+	height:9em;
+	width:9em;
+	padding:1em;
+	-moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+	-webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+	box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+	-moz-transition:-moz-transform .15s linear;
+	-o-transition:-o-transform .15s linear;
+	-webkit-transition:-webkit-transform .15s linear;
+	}
+	ul li{
+	margin:1em;
+	float:left;
+	}
+	ul li h2{
+	font-size:140%;
+	font-weight:bold;
+	padding-bottom:10px;
+	}
+	ul li p{
+	font-family:"Reenie Beanie",arial,sans-serif;
+	font-size:80%;
+	}
+	ul li a{
+	-webkit-transform: rotate(-6deg);
+	-o-transform: rotate(-6deg);
+	-moz-transform:rotate(-6deg);
+	}
+	ul li:nth-child(even) a{
+	-o-transform:rotate(4deg);
+	-webkit-transform:rotate(4deg);
+	-moz-transform:rotate(4deg);
+	position:relative;
+	top:5px;
+	background:#cfc;
+	}
+	ul li:nth-child(3n) a{
+	-o-transform:rotate(-3deg);
+	-webkit-transform:rotate(-3deg);
+	-moz-transform:rotate(-3deg);
+	position:relative;
+	top:-5px;
+	background:#ccf;
+	}
+	ul li:nth-child(5n) a{
+	-o-transform:rotate(5deg);
+	-webkit-transform:rotate(5deg);
+	-moz-transform:rotate(5deg);
+	position:relative;
+	top:-10px;
+	}
+	ul li a:hover,ul li a:focus{
+	box-shadow:10px 10px 7px rgba(0,0,0,.7);
+	-moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+	-webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+	-webkit-transform: scale(1.25);
+	-moz-transform: scale(1.25);
+	-o-transform: scale(1.25);
+	position:relative;
+	z-index:5;
+	}
+	</style>
+</head>
+<body>
+<main>
+<ul>
+	<li>
+		<a href="#">
+			<h2>403 - Ofimatica</h2>
+			<p>	\[ \underleftarrow{z+w} \neq \underrightarrow{z+q}
+\neq \overleftrightarrow{zw} \]
+\[ \xleftarrow[T]{a+b} \quad \xleftarrow[a+b+c+d]{T} \]</p>
+		</a>
+	</li>
+	<li>
+		<a href="#">
+			<h2>404</h2>
+			<p>	\[ \sideset{_{a}^{b}}{_{c}^{d}}\prod_{j=1}^{k+1} \]
+</p>
+		</a>
+	</li>
+	<li>
+		<a href="#">
+			<h2>405</h2>
+			<p>	\[ \overbrace{x+\underbrace{y+z}_{2} +w}^{4} \]
+</p>
+		</a>
+	</li>
+	<li>
+		<a href="#">
+			<h2>432</h2>
+			<p>
+			$$\int_0^\infty \textcolor{blue}{f(x)d(x)} = \textcolor{red}{g(x)} + C$$</p>
+		</a>
+	</li>
+	<li>
+		<a href="#">
+			<h2>603</h2>
+			<p>
+			 \[x_{(1,2)} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\]</p>
+		</a>
+	</li>
+</ul>
+</main>
+<!-- LaTeX con KaTeX V0.7 -->
+
+ \[x_{(1,2)} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\]
+
+  \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
+  
+  La sucesión
+$$
+2\sqrt{2}\,,\quad 2^2\sqrt{2-\sqrt{2}}\,,\quad 2^3\sqrt{2-\sqrt{2+\sqrt{2}}}\,,
+\quad 2^4\sqrt{2-\sqrt{2+\sqrt{2+\sqrt{2+\sqrt{2}}}}}\,,\;\ldots
+$$
+converge a $$\pi$$.
+
+
+</body>	

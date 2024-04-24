@@ -7,6 +7,22 @@
     <script defer src="js/pyscript.js"></script>
 </head>
 <body>
-	<py-script>print("Hello, World!")</py-script>
+	<py-script>
+		import random
+
+personajes = ["kevin", "diana", "leo", "jose", "gabriel", "adan"]
+acciones = ["ataco", "salto", "corrio", "mato", "esquivo", "huyo"]
+lugares = ["en la cueva", "en la playa", "en la ciudad", "en la casa", "en la escuela", "en el bosque"]
+
+
+def cuento():
+  personaje =  random.choice(personajes)
+  accion = random.choice(acciones)
+  lugar = random.choice(lugares)
+  return f"{personaje} {accion} {lugar}"
+
+
+print(cuento())
+		</py-script>
 </body>
 </html>
